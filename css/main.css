@@ -1,0 +1,57 @@
+/*Color Palette------------
+	Blue	009eff
+	Grey	d0d0d0
+	Black	000000
+	White	ffffff
+-------------------------*/
+
+
+/*----------------------Header----------------------*/
+h1 {
+	color: #009eff;
+	background: #000000;
+	padding: 5px;
+}
+
+.title {
+	position: center;
+}
+
+.credits {
+	color: #ffffff;
+}
+
+
+/*----------------------Body----------------------*/
+p {
+	color: black;
+}
+
+body {
+	width: 70%; /*1020px*/
+	margin: 0 auto;
+	background-color: #d0d0d0;
+	font: 100%/1.5 "Helvetica", Arial, Georgia;
+}
+
+h3 {
+	color: #009eff;
+	background: #fff;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.answers {
+	background: #a9a9a9;
+	padding: 10px;
+}
+
+h5 {
+	background: #707070;
+	padding: 5px;
+}
+
+b {
+	background: #707070;
+}

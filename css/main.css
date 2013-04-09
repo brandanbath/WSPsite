@@ -15,10 +15,12 @@ h1 {
 
 .title {
 	position: center;
+	padding-left: 190px;
 }
 
 .credits {
 	color: #ffffff;
+	padding-left: 300px;
 }
 
 

@@ -1,8 +1,11 @@
 h1 {
-	color: red;
+	color: #ffffff;
+	background: #000000;
+	padding: 5px;
 }
 
 body {
+	margin: 0 auto;
 	width: 1000px;
-	position: center;
+	background: #38f887;
 }

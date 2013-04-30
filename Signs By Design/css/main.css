@@ -48,6 +48,7 @@ p {
 .pagetitle {
 	color: #670400
 	font-family: Poiret One:
+	float: left;
 }
 
 #element {
@@ -67,6 +68,7 @@ p {
 
 #reviews {
 	background: #e1e1e1;
+	padding-bottom: 20px;
 	padding: 20px;
 }
 
@@ -77,6 +79,66 @@ p {
 
 .mainreview {
 	padding: 10px;
+}
+
+.photoline {
+	float: left;
+	background: #dfdfdf;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#servicephotos {
+	background-color: #dfdfdf;
+}
+
+#contactform {
+	float: left;
+	padding-right: 100px;
+}
+
+#contactcredits {
+	float: left;
+}
+
+.breadcrumb {
+	
+}
+
+h5 {
+	color: #670400;
+}
+
+.writeup {
+	color: #ffffff;
+}
+
+.writeuplight {
+	color: #000000;
+}
+
+.servicedivider {
+	color: #ffa200
+}
+
+.signphotos {
+	float: left;
+	padding-right: 100px;
+	background: #a4a4a4;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.signsbg {
+	background: #e1e1e1;
+}
+
+.maintenancebg {
+	background: #e1e1e1;
 }
 
 /* ----------footer---------- */
@@ -91,14 +153,16 @@ h4 {
 	line-height: 200%;
 }
 
+.location {
+	float: left;
+}
+
 .contact {
-	float: right;
+	float: left;
 }
 
 .latestwork {
-	float: right;
+	float: left;
 }
 
-.credits {
-	margin: 0 auto;
-}
+

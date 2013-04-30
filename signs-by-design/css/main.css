@@ -142,6 +142,11 @@ h5 {
 }
 
 /* ----------footer---------- */
+footer section {
+	width: 33.33333%;
+	padding-bottom: 50px;
+}
+
 .footer { 
 	background-color: #ffffff;
 	padding: 25px;

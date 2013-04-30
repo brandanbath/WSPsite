@@ -26,13 +26,79 @@ body {
 
 #featuredphoto {
 	float: left;
+	padding-right: 25px;
 }
 
 h1 {
 	color: #670400;
 	font-family: Poiret One;
-	font-size: 1.5em
+	font-size: 1.5em;
+	line-height: 200%
+}
+
+p {
+	line-height: 120%;
+}
+
+#servicesbutton {
+	padding-top: 20px;
+	padding-left: 340px;
+}
+
+.pagetitle {
+	color: #670400
+	font-family: Poiret One:
+}
+
+#element {
+	float: left;
+	padding-right: 25px;
+}
+
+#aboutdivider {
+	padding-top: 50px;
+}
+
+#subheadings {
+	padding-top: 10px;
+	font-family: Poiret One;
+	color: #ffa200;
+}
+
+#reviews {
+	background: #e1e1e1;
+	padding: 20px;
+}
+
+.dividingreview {
+	background-color: #a4a4a4;
+	padding: 10px;
+}
+
+.mainreview {
+	padding: 10px;
 }
 
 /* ----------footer---------- */
-footer { background: #fffff0; }
+.footer { 
+	background-color: #ffffff;
+	padding: 25px;
+}
+
+h4 {
+	font-family: Poiret One;
+	color: #670400;
+	line-height: 200%;
+}
+
+.contact {
+	float: right;
+}
+
+.latestwork {
+	float: right;
+}
+
+.credits {
+	margin: 0 auto;
+}

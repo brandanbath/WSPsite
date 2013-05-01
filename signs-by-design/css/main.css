@@ -28,6 +28,7 @@ body {
 #featuredphoto {
 	float: left;
 	padding-right: 25px;
+	clear: left;
 }
 
 h1 {
@@ -225,6 +226,7 @@ h4 {
 		}
 		
 		#featuredphoto {
+			clear: left;
 			float: none;
 		}
 		
@@ -246,4 +248,13 @@ h4 {
 		
 		#aboutdivider {
 			display: none;
+		}
+		
+		#element {
+			float: none;
+			width: 500px;
+		}
+		
+		#abouttext {
+			width: 450px;
 		}

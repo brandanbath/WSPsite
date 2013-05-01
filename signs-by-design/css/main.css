@@ -4,19 +4,18 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 /* ------------------------Main Site CSS------------------------ */
 
 /* ----------header---------- */
-#branding {
+.branding {
 	float: left;
 	margin-top: 50px;
 }
 
-#number {
+.number {
 	padding-top: 5px;
 	float: right;
 }
 
 nav {
-	width: 1100px;
-	float: left;
+	float: right;
 }
 
 /* ----------body---------- */
@@ -177,12 +176,74 @@ h4 {
 	float: left;
 }
 
-.credits {
-	margin: 0 auto;
-}
-
 
 /* -------------------------Media Queries------------------------- */
 
+	/* Tablet Portrait size to standard 960 (devices and browsers)*/
+	@media screen and (min-width: 768px) and (max-width: 959px) {
+		body {
+			background-image: url('../images/SBD_Background.png');
+		}
+		.h1 {
+			font-weight: bold;
+		}
+		.portfolio {
+			float: right;
+		}
+} 
 
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		body {
+			background-color: #d3d3d3;
+		}
+		.h1 {
+			font-weight: bold;
+		}
+		aside {
+			float: none;
+		}
+}
 
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 500px) {
+		footer {
+			float: none;
+		}
+		
+		.branding {
+			float: none;
+		}
+		
+		nav {
+			float: none;
+			width: 500px;
+		}
+		
+		.number {
+			float: none;
+		}
+		
+		#featuredphoto {
+			float: none;
+		}
+		
+		#hometext {
+			width: 450px;
+		}
+		
+		.location {
+		float: none;
+		}
+
+		.contact {
+		float: none;
+		}
+
+		.latestwork {
+		float: none;
+		}
+		
+		#aboutdivider {
+			display: none;
+		}

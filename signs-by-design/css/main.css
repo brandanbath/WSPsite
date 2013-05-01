@@ -5,7 +5,6 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /* ----------header---------- */
 #branding {
-	float: left;
 	margin-top: 50px;
 }
 
@@ -141,6 +140,7 @@ h5 {
 	background: #e1e1e1;
 }
 
+
 /* ----------footer---------- */
 footer section {
 	width: 33.33333%;
@@ -170,4 +170,10 @@ h4 {
 	float: left;
 }
 
+.credits {
+	margin: 0 auto;
+}
+
+
+/* Media Queries */
 

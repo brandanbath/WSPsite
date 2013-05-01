@@ -100,7 +100,7 @@ p {
 }
 
 #contactcredits {
-	float: left;
+	float: clear;
 }
 
 .breadcrumb {

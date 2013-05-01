@@ -48,14 +48,15 @@ p {
 }
 
 .pagetitle {
-	color: #670400
+	color: #670400;
 	font-family: Poiret One:
-	float: left;
+	width: 950px;
 }
 
 #element {
 	float: left;
 	padding-right: 25px;
+	clear: left;
 }
 
 #aboutdivider {
@@ -135,16 +136,9 @@ h5 {
 	padding-bottom: 10px;
 }
 
-.signsbg {
-	background: #e1e1e1;
-}
-
-.maintenancebg {
-	background: #e1e1e1;
-}
-
 number {
 	float: right;
+	clear: right;
 }
 
 
@@ -167,6 +161,7 @@ h4 {
 
 .location {
 	float: left;
+	clear: left;
 }
 
 .contact {
@@ -185,24 +180,12 @@ h4 {
 		body {
 			background-image: url('../images/SBD_Background.png');
 		}
-		.h1 {
-			font-weight: bold;
-		}
-		.portfolio {
-			float: right;
-		}
 } 
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		body {
 			background-color: #d3d3d3;
-		}
-		.h1 {
-			font-weight: bold;
-		}
-		aside {
-			float: none;
 		}
 }
 
@@ -252,9 +235,54 @@ h4 {
 		
 		#element {
 			float: none;
-			width: 500px;
+			width: 450px;
 		}
 		
 		#abouttext {
 			width: 450px;
 		}
+		
+		#reviews {
+			width: 450px;
+		}
+		
+		#servicelist { 
+			width: 350px;
+		}
+		
+		#servicephotos {
+			width: 400px;
+		}
+		
+		.divide {
+			width: 450px;
+		}
+		
+		footer {
+			width: 450px;
+		}
+		
+		.signscontent {
+			width: 450px;
+		}
+		
+		.signslist {
+			width: 400px;
+		}
+		
+		.signsphotos {
+			width: 400px;
+		}
+		
+		.installlist {
+			width: 300px;
+		}
+
+		.installphotos {
+			width: 500px;
+		}
+		
+		#contactform {
+			widt: 450px;
+		}		
+}

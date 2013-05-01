@@ -5,6 +5,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /* ----------header---------- */
 #branding {
+	float: left;
 	margin-top: 50px;
 }
 
@@ -13,7 +14,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 }
 
 nav {
-	float: right;
+	float: left;
 }
 
 /* ----------body---------- */
@@ -140,6 +141,10 @@ h5 {
 	background: #e1e1e1;
 }
 
+number {
+	float: right;
+}
+
 
 /* ----------footer---------- */
 footer section {
@@ -175,5 +180,7 @@ h4 {
 }
 
 
-/* Media Queries */
+/* -------------------------Media Queries------------------------- */
+
+
 

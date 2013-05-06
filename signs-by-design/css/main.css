@@ -7,6 +7,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 .branding {
 	float: left;
 	margin-top: 50px;
+	clear: left;
 }
 
 .number {
@@ -16,7 +17,12 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 nav {
 	float: right;
+	clear: right;
 }
+
+.clearFix { 
+	clear: both;
+} 
 
 /* ----------body---------- */
 body {
@@ -100,6 +106,7 @@ p {
 #contactform {
 	float: left;
 	padding-right: 100px;
+	clear: left;
 }
 
 #contactcredits {
@@ -139,6 +146,10 @@ h5 {
 number {
 	float: right;
 	clear: right;
+}
+
+#contactinfo {
+	float: left;
 }
 
 
